@@ -21,13 +21,17 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
-    "@prisma/client": "^6.8.2",
+    "@prisma/client": "6.5",
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^3.0.2",
+    "postgres": "^3.4.7",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "zod": "^3.25.34",
+    "zod-validation-error": "^3.4.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -41,7 +45,7 @@
     "@types/node": "^22.10.7",
     "eslint": "^8.57.1",
     "globals": "^16.0.0",
-    "prisma": "^6.8.2",
+    "prisma": "^6.5.0",
     "source-map-support": "^0.5.21",
     "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",
